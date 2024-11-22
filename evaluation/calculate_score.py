@@ -120,7 +120,7 @@ def parse_args():
     parser.add_argument(
         '--ignore_empty_extractions', action='store_true', help='If true, ignore empty extractions, otherwise process'
     )
-    parser.add_argument('--random_file', type=str, default='score_random_guess.json')
+    parser.add_argument('--random_file', type=str, default='scores_random_guess.json')
     # output
     parser.add_argument('--output_dir', type=str, default='_results/eval/mathvista/llava/debug')
     parser.add_argument('--output_file', type=str, default="llava-v1.5-7b.json")
